@@ -2,8 +2,6 @@
 
 本指南面向没有任何技术背景的成员，从零开始教你如何为花璃汉化组的文档站点添加内容。
 
----
-
 ## 第一部分：准备工作
 
 ### 1.1 安装 Git
@@ -640,7 +638,3 @@ git commit --amend -m "docs: 正确的提交信息"
 ```
 
 如果已经 push 了，就不用管了，下次注意就行。
-
----
-
-> [在 GitHub 上编辑此页](https://github.com/Mepuru/Seri-Group/blob/main/docs/guide/index.md)
