@@ -7,6 +7,9 @@ hero:
   tagline: 目标是让所有人学会翻译工具口牙！
   actions:
     - theme: brand
+      text: 指南
+      link: /guide/
+    - theme: alt
       text: GitHub
-      link: https://github.com/Mepuru/Chestnut-Seri
+      link: https://github.com/Mepuru/Seri-Group
 ---

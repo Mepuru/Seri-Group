@@ -12,7 +12,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Mepuru/Chestnut-Seri' },
+      { icon: 'github', link: 'https://github.com/Mepuru/Seri-Group' },
     ],
 
     footer: {
