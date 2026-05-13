@@ -6,6 +6,11 @@ export default defineConfig({
   description: '花璃汉化组官方文档站点',
 
   themeConfig: {
+    nav: [
+      { text: '首页', link: '/' },
+      { text: '指南', link: '/guide/' },
+    ],
+
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Mepuru/Chestnut-Seri' },
     ],
