@@ -6,6 +6,11 @@ export default defineConfig({
   description: '花璃汉化组官方文档站点',
 
   themeConfig: {
+    editLink: {
+      pattern: 'https://github.com/Mepuru/Seri-Group/blob/main/docs/:path',
+      text: '在 GitHub 上编辑此页',
+    },
+
     nav: [
       { text: '首页', link: '/' },
       { text: '指南', link: '/guide/' },
@@ -16,8 +21,7 @@ export default defineConfig({
         {
           text: '指南',
           items: [
-            { text: '简介', link: '/guide/' },
-            { text: '如何撰写文档', link: '/guide/writing-docs' },
+            { text: '如何撰写文档', link: '/guide/' },
           ],
         },
       ],
