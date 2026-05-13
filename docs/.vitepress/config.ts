@@ -11,6 +11,18 @@ export default defineConfig({
       { text: '指南', link: '/guide/' },
     ],
 
+    sidebar: {
+      '/guide/': [
+        {
+          text: '指南',
+          items: [
+            { text: '简介', link: '/guide/' },
+            { text: '如何撰写文档', link: '/guide/writing-docs' },
+          ],
+        },
+      ],
+    },
+
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Mepuru/Seri-Group' },
     ],
